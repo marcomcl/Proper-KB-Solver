@@ -1,0 +1,3 @@
+forall X. (eq(X,n1) -> p(X))
+forall X. forall Y. ((!eq(X,n5) & eq(Y, n3)) -> p(X,Y))
+forall X. ((!eq(X,n1) & !eq(X,n2)) -> !p(X))
